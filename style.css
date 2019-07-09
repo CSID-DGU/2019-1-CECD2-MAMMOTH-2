@@ -1,0 +1,30 @@
+body,ul{
+margin: 80px 0;
+padding: 0;
+}
+li {
+list-style-type: none;
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+.vertical-menu {
+width: 400px;
+margin: 0 auto;
+}
+.vertical-menu a {
+padding: 15px 0 0 0;
+margin: 0 0 80px 0;
+display: block;
+height: 70px;
+line-height: 50px;
+background-color: #233F91;
+color: white;
+text-align:center;
+font-size:30px;
+}
+.vertical-menu a:hover {
+background-color: #bf391f;
+color: #fff;
+}
