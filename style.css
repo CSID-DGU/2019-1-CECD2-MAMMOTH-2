@@ -28,3 +28,35 @@ font-size:30px;
 background-color: #bf391f;
 color: #fff;
 }
+
+h1{
+  border-bottom: 2px solid #233F91;
+}
+
+.fircol{
+  padding-left: 1.5em;
+}
+
+.seccol{
+  padding-left: 6.2em;
+}
+
+.thicol{
+  padding-left: 8.9em;
+}
+
+.foucol{
+  padding-left: 10.3em;
+}
+
+.button1{
+  padding: 8px;
+  margin-left: 10em;
+  font-size: 14px;
+}
+
+.button2{
+  padding:8px;
+  margin-left: 3em;
+  font-size: 14px;
+}
