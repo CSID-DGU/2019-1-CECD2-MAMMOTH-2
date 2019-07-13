@@ -60,3 +60,35 @@ h1{
   margin-left: 3em;
   font-size: 14px;
 }
+
+.fircol2{
+  padding-left: 1.3em;
+}
+
+.seccol2{
+  padding-left: 2.7em;
+}
+
+.thicol2{
+  padding-left: 6.8em;
+}
+
+.foucol2{
+  padding-left: 5.6em;
+}
+
+.fifcol2{
+  padding-left: 1.2em;
+}
+
+.button3{
+  padding: 8px;
+  margin-left: 10em;
+  font-size: 14px;
+}
+
+.button4{
+  padding:8px;
+  margin-left: 3em;
+  font-size: 14px;
+}
