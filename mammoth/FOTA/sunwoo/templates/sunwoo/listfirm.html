@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/static/css/style.css?{% now "U" %}"/>
+  <title>Firmware list</title>
+</head>
+<body>
+  <h1> &nbsp; &nbsp; manufacturer &nbsp; &nbsp; &nbsp; &nbsp; device &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; version &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; number &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; file_path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update time </h1>
+  <table>
+    {% for Firmwaredata in Firmwaredatas %}
+    <tr>
+      <td><h2 class="fircol2">{{Firmwaredata.manufacture}}</h2></td>
+      <td><h2 class="seccol2">{{Firmwaredata.deviceName}}</h2></td>
+      <td><h2 class="thicol2">{{Firmwaredata.firmware_version}}</h2></td>
+      <td><h2 class="thicol2">{{Firmwaredata.firmware_number}}</h2></td>
+      <td><h2 class="thicol2">{{Firmwaredata.file}}</h2></td>
+      <td><h2 class="foucol2">{{Firmwaredata.update_date}}</h2></td>
+      <td><button class="button3" type="button" name="modify2"><a href="{% url 'editfirm' Firmwaredata.id %}">modify</a></button></td>
+      <td><button class="button4" type="button" name="delete2"><a href="{% url 'deletefirm' Firmwaredata.id %}">delete</a></button></td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

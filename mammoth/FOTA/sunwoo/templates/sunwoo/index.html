@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <title>SFOTA login</title>
+</head>
+
+<body>
+
+    <form action="#" method="POST">
+        <div class="center-wrapper">
+            <div class="imagecenter" >
+                <img src= "{% static 'img/SFOTA_logo.png' %}" width=200 height=200 >
+            </div>
+
+            <div class="center" >
+                <p>
+                    <label for="loginID">ID : </label>
+                    <input type=text id=loginID value="">
+                </p>
+                <p>
+                    <label for="pwd">Password : </label>
+                    <input type=password id=pwd value="" onkeyup=onKeyupPasswd(event)>
+                </p>
+            </div>
+
+             <div class="center" style="width:100px">
+                <input type="button" value="로그인" style="width:100px; height:100px;" onclick=fnLogin() >
+            </div>
+        </div>
+
+
+    </form>
+
+
+    <script type="text/javascript">
+
+        /*****
+        *    로그인 함수 예제
+        *****/
+        function fnLogin(){
+            var objLogin = document.getElementById("loginID");
+            var objPassword = document.getElementById("pwd");
+
+            if(objLogin.value == ""){
+                alert("아이디를 입력하세요..!!");
+                objLogin.focus();
+                return ;
+            }
+            else if(objPassword.value == ""){
+                alert("비밀번호를 입력하세요..!!");
+                objPassword.focus();
+                return ;
+            }
+
+            if(objLogin.value == "Mammoth" || objLogin.value =="mammoth"){
+                if(objPassword.value == 1111 || objPassword.value == "1111"){
+                     window.location.href = 'http://127.0.0.1:8000/main';
+                }
+                else {
+                    alert("비밀번호가 잘못되었습니다..!!");
+                    objPassword.focus();
+                    return ;
+                }
+            }
+            else {
+                    alert("아이디가 잘못되었습니다..!!");
+                    objLogin.focus();
+                    return ;
+                }
+
+        }    // end function fnLogin()
+
+        /*****
+        *    패스워드 필드에서 엔터키를 누를 경우
+        *     fnLogin() 함수 실행
+        *****/
+        function onKeyupPasswd(ev){
+            var evKeyup = null;
+
+            if(ev)                                            // firefox
+                evKeyup = ev;
+            else                                            // explorer
+                evKeyup = window.event;
+
+            if(evKeyup.keyCode == 13){                        // enter key code:13
+                document.getElementById("pwd").blur();
+                fnLogin();
+            }    // end if
+
+        }    // end function onKeyupPassword()
+    </script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b41a7faa-aef8-4b67-887f-56627b30503c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/edit_firmware.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/listfirm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="328" selection-start-line="9" selection-start-column="328" selection-end-line="9" selection-end-column="328" />
+              <folding>
+                <element signature="e#216#222#0" expanded="true" />
+                <element signature="e#259#265#0" expanded="true" />
+                <element signature="e#280#286#0" expanded="true" />
+                <element signature="e#292#298#0" expanded="true" />
+                <element signature="e#298#304#0" expanded="true" />
+                <element signature="e#300#306#0" expanded="true" />
+                <element signature="e#307#313#0" expanded="true" />
+                <element signature="e#314#320#0" expanded="true" />
+                <element signature="e#321#327#0" expanded="true" />
+                <element signature="e#364#370#0" expanded="true" />
+                <element signature="e#370#376#0" expanded="true" />
+                <element signature="e#376#382#0" expanded="true" />
+                <element signature="e#382#388#0" expanded="true" />
+                <element signature="e#388#394#0" expanded="true" />
+                <element signature="e#394#400#0" expanded="true" />
+                <element signature="e#400#406#0" expanded="true" />
+                <element signature="e#406#412#0" expanded="true" />
+                <element signature="e#412#418#0" expanded="true" />
+                <element signature="e#418#424#0" expanded="true" />
+                <element signature="e#424#430#0" expanded="true" />
+                <element signature="e#430#436#0" expanded="true" />
+                <element signature="e#436#442#0" expanded="true" />
+                <element signature="e#442#448#0" expanded="true" />
+                <element signature="e#448#454#0" expanded="true" />
+                <element signature="e#454#460#0" expanded="true" />
+                <element signature="e#460#466#0" expanded="true" />
+                <element signature="e#466#472#0" expanded="true" />
+                <element signature="e#472#478#0" expanded="true" />
+                <element signature="e#478#484#0" expanded="true" />
+                <element signature="e#484#490#0" expanded="true" />
+                <element signature="e#490#496#0" expanded="true" />
+                <element signature="e#496#502#0" expanded="true" />
+                <element signature="e#502#508#0" expanded="true" />
+                <element signature="e#508#514#0" expanded="true" />
+                <element signature="e#514#520#0" expanded="true" />
+                <element signature="e#520#526#0" expanded="true" />
+                <element signature="e#526#532#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/listdev.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <element signature="e#235#241#0" expanded="true" />
+                <element signature="e#308#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templatetags/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templatetags/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/upload_firmware.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fir</find>
+      <find>center</find>
+      <find>absolute</find>
+      <find>padding</find>
+      <find>deviceName</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/regist_device.html" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/regist_firmware.html" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/main.html" />
+        <option value="$PROJECT_DIR$/sunwoo/urls.py" />
+        <option value="$PROJECT_DIR$/sunwoo/forms.py" />
+        <option value="$PROJECT_DIR$/FOTA/settings.py" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/upload_firmware.html" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/edit_firmware.html" />
+        <option value="$PROJECT_DIR$/sunwoo/models.py" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/index.html" />
+        <option value="$PROJECT_DIR$/sunwoo/views.py" />
+        <option value="$PROJECT_DIR$/sunwoo/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/sunwoo/templatetags/extra_tags.py" />
+        <option value="$PROJECT_DIR$/sunwoo/templatetags/index.py" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/listdev.html" />
+        <option value="$PROJECT_DIR$/sunwoo/static/css/style.css" />
+        <option value="$PROJECT_DIR$/sunwoo/templates/sunwoo/listfirm.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="114" />
+    <option name="y" value="739" />
+    <option name="width" value="1811" />
+    <option name="height" value="1391" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="sunwoo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="sunwoo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="sunwoo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="sunwoo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="sunwoo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="sunwoo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SFOTA_COPY-master" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b41a7faa-aef8-4b67-887f-56627b30503c" name="Default Changelist" comment="" />
+      <created>1563634335872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563634335872</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="76" y="493" width="1207" height="927" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17692308" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.1446541" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sunwoo/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FOTA/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SFOTA_COPY-master/SFOTA_COPY-master/Scfota/securefota/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/regist_device.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FOTA/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/regist_account.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/upload_firmware.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/edit_firmware.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templatetags/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/listdev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#235#241#0" expanded="true" />
+            <element signature="e#308#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunwoo/templates/sunwoo/listfirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="328" selection-start-line="9" selection-start-column="328" selection-end-line="9" selection-end-column="328" />
+          <folding>
+            <element signature="e#216#222#0" expanded="true" />
+            <element signature="e#259#265#0" expanded="true" />
+            <element signature="e#280#286#0" expanded="true" />
+            <element signature="e#292#298#0" expanded="true" />
+            <element signature="e#298#304#0" expanded="true" />
+            <element signature="e#300#306#0" expanded="true" />
+            <element signature="e#307#313#0" expanded="true" />
+            <element signature="e#314#320#0" expanded="true" />
+            <element signature="e#321#327#0" expanded="true" />
+            <element signature="e#364#370#0" expanded="true" />
+            <element signature="e#370#376#0" expanded="true" />
+            <element signature="e#376#382#0" expanded="true" />
+            <element signature="e#382#388#0" expanded="true" />
+            <element signature="e#388#394#0" expanded="true" />
+            <element signature="e#394#400#0" expanded="true" />
+            <element signature="e#400#406#0" expanded="true" />
+            <element signature="e#406#412#0" expanded="true" />
+            <element signature="e#412#418#0" expanded="true" />
+            <element signature="e#418#424#0" expanded="true" />
+            <element signature="e#424#430#0" expanded="true" />
+            <element signature="e#430#436#0" expanded="true" />
+            <element signature="e#436#442#0" expanded="true" />
+            <element signature="e#442#448#0" expanded="true" />
+            <element signature="e#448#454#0" expanded="true" />
+            <element signature="e#454#460#0" expanded="true" />
+            <element signature="e#460#466#0" expanded="true" />
+            <element signature="e#466#472#0" expanded="true" />
+            <element signature="e#472#478#0" expanded="true" />
+            <element signature="e#478#484#0" expanded="true" />
+            <element signature="e#484#490#0" expanded="true" />
+            <element signature="e#490#496#0" expanded="true" />
+            <element signature="e#496#502#0" expanded="true" />
+            <element signature="e#502#508#0" expanded="true" />
+            <element signature="e#508#514#0" expanded="true" />
+            <element signature="e#514#520#0" expanded="true" />
+            <element signature="e#520#526#0" expanded="true" />
+            <element signature="e#526#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

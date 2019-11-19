@@ -1,0 +1,66 @@
+<!--
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <title>SFOTA regeist device</title>
+</head>
+
+<body>
+-->
+<!--
+    <form action="#" method="POST">
+        {% csrf_token %}
+        <div class="center-wrapper">
+        <p>
+            <label class="blue-menu" for="device_ID"> device ID : </label>
+            <input id="device_ID" type="text" name="device_ID" style="font-size:20px;">
+        </p>
+
+        <p>
+            <label class="blue-menu" for="manufacturer"> manufacturer : </label>
+            <input id="manufacturer" type="text" name="manufacturer" style="font-size:20px;">
+        </p>
+
+        <p>
+            <label class="blue-menu" for="firmware_version"> firmware version : </label>
+            <input id="firmware_version" type="text" name="firmware_version"  style="font-size:20px;">
+        </p>
+        </div>
+        
+        <div class="center-wrapper">
+            <input class="blue-button" type="submit" value="Confirm" style="width:300px; height:50px;">
+            <a href="#"><input class="white-button" type="button" value="Cancel" style="width:300px; height:50px;"></a>
+        </div>    
+    </form>-->
+
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="ko">
+ <head>
+  <title>My Little Lotto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link href="//fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/lotto.css' %}">
+ </head>
+ <body>
+  <div class="page-header">
+   <h1>Regist device</h1>
+  </div>
+  <div class="container lotto">
+   <form method="POST" class="post-form">
+       {%csrf_token%}  <!-- 보안이슈로 입력 -->
+       {{form.as_p}}
+     <button type="submit" class="save btn btn-default">regist</button>
+   </form>
+  </div>
+ </body>
+</html>
+
+
+</body>
