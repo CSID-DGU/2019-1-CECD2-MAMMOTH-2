@@ -10,7 +10,7 @@ Secure FOTA
 1-3. 기기, 펌웨어 등록 화면
 <p align="center"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/devreg.png" width="400" height="400"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/firmup.png" width="400" height="400"></p>
 1-4. 기기, 펌웨어 목록 화면
-<p align="center"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/devlist.png" width="400" height="400"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/firmlist.png" width="400" height="400"></p>
+<p align="center"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/devlist.png" width="300" height="200"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/firmlist.png" width="400" height="400"></p>
 
 2. 클라이언트(라즈베리파이)
 
