@@ -4,9 +4,8 @@ Secure FOTA
 
 1. 웹 서버
 
-<p align="center"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/login.png" width="250" height="400"><img src="https://github.com/dgu-pmos/secretary_mo/blob/master/images/login2_cap.jpeg" width="250" height="400"><img src="https://github.com/dgu-pmos/secretary_mo/blob/master/images/main_cap.jpeg" width="250" height="400"></p>
-
-
+<p align="center"><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/login.png" width="600" height="400"></p>
+<p><img src="https://github.com/CSID-DGU/2019-1-CECD2-MAMMOTH-2/blob/master/images/main.png" width="600" height="400"></p>
 
 
 
