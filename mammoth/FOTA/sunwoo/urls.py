@@ -14,4 +14,5 @@ urlpatterns = [ url(r'^$', views.login, name='login'),
                 #url(r'^download/iphone/(?P<d_version>[0-9]+)/$', views.download_iphone, name='download_iphone'),
                 url(r'^download/iphone/(?P<id>[0-9]+)/(?P<num>[0-9]+)/$', views.download_iphone, name='download_iphone'),
                 url(r'check_version/(?P<id>[0-9]+)/$', views.check_version, name='check_version'),
+                url(r'upgrade_version/(?P<id>[0-9]+)/$', views.upgrade_version, name='upgrade_version')
                 ]

@@ -70,7 +70,7 @@ def del_file(old_file, new_file):
 
 def main(request):
     return render(request, 'sunwoo/main.html',{})
-
+'''
 def listdev(request):
     Devicedatas = Devicedata.objects.all()
     Firmwaredatas = Firmwaredata.objects.all()
@@ -87,6 +87,31 @@ def listdev(request):
         if label == False:
             firmware_checks.append(False)
 
+
+    return render(request, 'sunwoo/listdev.html',{'Devicedatas':Devicedatas, 'firmware_checks': firmware_checks})
+'''
+
+def listdev(request):
+    Devicedatas = Devicedata.objects.all()
+    Firmwaredatas = Firmwaredata.objects.all()
+    firmware_checks = list()
+    label = False
+
+    for device in Devicedatas:
+        print("deviceName : " + device.deviceName)
+        latest_of_firmwares = list()
+        for firmware in Firmwaredatas:
+            print("firmware deviceName : " + firmware.deviceName)
+            if(device.manufacture == firmware.manufacture and device.deviceName == firmware.deviceName): # 펌웨어와 장치의 제조사, 장치 이름 같으면
+                latest_of_firmwares.append(firmware.firmware_version) # 버전 확인 목록에 추가
+        if len(latest_of_firmwares)>0: # 최신 버전일 일수록 높은 숫자 부여
+            latest_version = max(latest_of_firmwares) # 가장 높은 숫자가 최신 버전
+            if( device.firmware_version == latest_version): # 현재 펌웨어 버전이 최신 버전과 같으면
+                firmware_checks.append(True) # true 어펜드
+            else:
+                firmware_checks.append(False) # false 어펜드
+        else:
+            firmware_checks.append(False)
 
     return render(request, 'sunwoo/listdev.html',{'Devicedatas':Devicedatas, 'firmware_checks': firmware_checks})
 
@@ -143,6 +168,7 @@ def download_iphone(request, id, num):
     response['Content-Disposition'] = 'attachment; filename=pic_test_'+str(num)+'.png'
     return response
 
+@csrf_exempt
 def check_version(request, id):
     d_ver = Devicedata.objects.get(deviceid=id)
     firm = Firmwaredata.objects.filter(deviceName=d_ver.deviceName).order_by('-update_date')
@@ -153,4 +179,14 @@ def check_version(request, id):
         response=HttpResponse("n")
     return response
 
-
+@csrf_exempt
+def upgrade_version(request, id):
+    #d_ver=get_object_or_404(Devicedata, deviceid=id)
+    d_ver = Devicedata.objects.get(deviceid=id)
+    firm = Firmwaredata.objects.filter(deviceName=d_ver.deviceName).order_by('-update_date')
+    n_ver = firm[0]
+    if request.method == 'POST':
+        d_ver.firmware_version = n_ver.firmware_version
+        d_ver.save()
+        response = HttpResponse("complete!")
+    return response

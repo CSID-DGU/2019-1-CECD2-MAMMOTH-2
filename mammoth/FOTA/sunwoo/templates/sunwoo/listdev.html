@@ -2,32 +2,34 @@
 {% load staticfiles %}
 {% load index %}
 
-
-
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/static/css/style.css?{% now "U" %}"/>
+  <link rel="stylesheet" href="/static/css/style.css?{% now 'U' %}"/>
   <title>Device list</title>
 </head>
 <body>
-  <h1> &nbsp; &nbsp; manufacture&nbsp;&nbsp;&nbsp;&nbsp;deviceID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; deviceName &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; version &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; check</h1>
-  <table>
+  <table width ="500" align = "center">
+    <th><h1>manufacture</h1></th>
+    <th><h1>deviceID</h1></th>
+    <th><h1>deviceName</h1></th>
+    <th><h1>version</h1></th>
+    <th><h1>check</h1></th>
     {% for Devicedata in Devicedatas %}
     <tr>
-      <td><h2 class="fircol">{{Devicedata.manufacture}}</h2></td>
-      <td><h2 class="seccol">{{Devicedata.deviceid}}</h2></td>
-      <td><h2 class="seccol">{{Devicedata.deviceName}}</h2></td>
-      <td><h2 class="thicol">{{Devicedata.firmware_version}}</h2></td>
+      <td class="tablecss"><h2>{{Devicedata.manufacture}}</h2></td>
+      <td class="tablecss"><h2>{{Devicedata.deviceid}}</h2></td>
+      <td class="tablecss"><h2>{{Devicedata.deviceName}}</h2></td>
+      <td class="tablecss"><h2>{{Devicedata.firmware_version}}</h2></td>
 
           {%if firmware_checks|index:forloop.counter0 %}
-              <td><img class="foucol" src="{% static 'img/green.png' %}" alt="green" height="20px" width="20px">
+              <td class="tablecss"><img class="foucol" src="{% static 'img/green.png' %}" alt="green" height="20px" width="20px">
           {% else %}
-              <td><img class="foucol" src="{% static 'img/red.png' %}" alt="red" height="20px" width="20px">
+              <td class="tablecss"><img class="foucol" src="{% static 'img/red.png' %}" alt="red" height="20px" width="20px">
           {% endif %}
 
-      <td><button class="button1" type="button" name="modify"><a href="{% url 'editdev' Devicedata.id %}">modify</a></button></td>
-      <td><button class="button2" type="button" name="delete"><a href="{% url 'deletedev' Devicedata.id %}">delete</a></button></td>
+      <td><button class="button" type="button" name="modify"><a href="{% url 'editdev' Devicedata.id %}">modify</a></button></td>
+      <td><button class="button" type="button" name="delete"><a href="{% url 'deletedev' Devicedata.id %}">delete</a></button></td>
     </tr>
     {% endfor %}
   </table>

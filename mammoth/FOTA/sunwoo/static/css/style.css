@@ -77,61 +77,18 @@ a{
     
 h1{
     border-bottom: 2px solid #233F91;
-}
-    
-.fircol{
-    padding-left: 1.5em;
-}
-    
-.seccol{
-    padding-left: 8.2em;
-}
-    
-.thicol{
-    padding-left: 8.9em;
-}
-    
-.foucol{
-    padding-left: 16.3em;
-}
-    
-.button1{
-    padding: 8px;
-    margin-left: 10em;
-    font-size: 14px;
-}
-    
-.button2{
-    padding:8px;
-    margin-left: 3em;
-    font-size: 14px;
-}
-    
-.fircol2{
-    padding-left: 3em;
-}
-    
-.seccol2{
-    padding-left: 8em;
-}
-    
-.thicol2{
-    padding-left: 5em;
+    font-size: 22px;
 }
 
-.foucol2{
-    padding-left: 3em;
+h2{
+    font-size: 18px;
 }
     
-.button3{
+.tablecss{
+    padding: 30px;
+}
+    
+.button{
     padding: 8px;
-    margin-left: 10em;
     font-size: 14px;
 }
-    
-.button4{
-    padding:8px;
-    margin-left: 3em;
-    font-size: 14px;
-}
-    
