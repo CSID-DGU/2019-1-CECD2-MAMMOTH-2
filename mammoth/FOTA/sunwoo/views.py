@@ -190,3 +190,13 @@ def upgrade_version(request, id):
         d_ver.save()
         response = HttpResponse("complete!")
     return response
+    
+@csrf_exempt
+def init_version(request, id):
+    d_ver = Devicedata.objects.get(deviceid=id)
+    if request.method == 'POST':
+        d_ver.firmware_version = 0
+        d_ver.save()
+        response = HttpResponse("init complete!")
+    return response
+
